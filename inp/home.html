@@ -1,0 +1,156 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Lexend%3Awght%40400%3B500%3B700%3B900&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900"
+    />
+
+    <title>Skill Wallha</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    <div class="relative flex size-full min-h-screen flex-col bg-[#fcf8f8] group/design-root overflow-x-hidden" style='font-family: Lexend, "Noto Sans", sans-serif;'>
+      <div class="layout-container flex h-full grow flex-col">
+        <!-- Header -->
+        <header class="flex flex-wrap items-center justify-between whitespace-nowrap border-b border-solid border-b-[#f3e7e8] px-4 sm:px-10 py-3 gap-y-4">
+          <div class="flex flex-wrap items-center gap-4 md:gap-8">
+            <div class="flex items-center gap-4 text-[#1b0e0e]">
+              <a class="text-[#1b0e0e] text-lg font-bold leading-tight tracking-[-0.015em]" href="home.html" >Skill Wallha</a>
+            </div>
+            <div class="flex flex-wrap items-center gap-4 md:gap-9">
+              <a class="text-[#1b0e0e] text-sm font-medium leading-normal" href="home.html">Home</a>
+              <a class="text-[#1b0e0e] text-sm font-medium leading-normal" href="instructors.html">Instructors</a>
+              <a class="text-[#1b0e0e] text-sm font-medium leading-normal" href="pricing.html">Pricing</a>
+            </div>
+          </div>
+          <div class="flex flex-1 justify-end gap-4 md:gap-8">
+            <label class="flex flex-col min-w-40 !h-10 max-w-64">
+              <div class="flex w-full flex-1 items-stretch rounded-lg h-full">
+              </div>
+            </label>
+            <div class="flex gap-2">
+              <button
+                class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-[#ea2832] text-[#fcf8f8] text-sm font-bold leading-normal tracking-[0.015em]"
+              >
+                <a class="truncate" href="signup.html" >Sign up</a>
+              </button>
+              <button
+                class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-[#f3e7e8] text-[#1b0e0e] text-sm font-bold leading-normal tracking-[0.015em]"
+              >
+                <a class="truncate" href="login.html">Log in</a>
+              </button>
+            </div>
+          </div>
+        </header>
+        <!-- Main Content -->
+        <div class="px-4 sm:px-8 md:px-20 lg:px-40 flex flex-1 justify-center py-5">
+          <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+            <!-- Intro Text -->
+            <div class="flex flex-wrap justify-between gap-3 p-4">
+              <div class="flex min-w-72 flex-col gap-3">
+                <p class="text-[#1b0e0e] tracking-light text-2xl sm:text-3xl md:text-4xl font-bold leading-tight">
+                  Explore Courses
+                </p>
+                <p class="text-[#994d51] text-sm font-normal leading-normal">Browse our extensive catalog of courses and start learning today.</p>
+              </div>
+            </div>
+            <!-- Categories -->
+            <div class="flex gap-2 sm:gap-3 p-3 flex-wrap pr-4">
+              <div class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-lg bg-[#f3e7e8] pl-4 pr-4">
+                <a class="text-[#1b0e0e] text-sm font-medium leading-normal" href="home.html" >All</a>
+              </div>
+              <div class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-lg bg-[#f3e7e8] pl-4 pr-4">
+                <a class="text-[#1b0e0e] text-sm font-medium leading-normal" href="technology.html" >Technology</a>
+              </div>
+              <div class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-lg bg-[#f3e7e8] pl-4 pr-4">
+                <a class="text-[#1b0e0e] text-sm font-medium leading-normal" href="business.html" >Business</a>
+              </div>
+              <div class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-lg bg-[#f3e7e8] pl-4 pr-4">
+                <a class="text-[#1b0e0e] text-sm font-medium leading-normal" href="design.html" >Design</a>
+              </div>
+            </div>
+            <div class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4">
+              <div class="flex flex-col gap-3 pb-3">
+                <a href="course.html">
+                  <div
+                    class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-lg min-h-[100px] sm:min-h-[150px]"
+                    style='background-image: url("./Pictures/Data\ Science.jpg");'
+                  ></div>
+                </a>
+                <div>
+                  <a class="text-[#1b0e0e] text-base font-medium leading-normal">Data Science</a>
+                  <p class="text-[#994d51] text-sm font-normal leading-normal">Learn the fundamentals of data science with machine learning techniques.</p>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <a href="course1.html">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-lg min-h-[100px] sm:min-h-[150px]"
+                  style='background-image: url("./Pictures/Digital\ Marketing.jpg");'
+                ></div>
+                </a>
+                <div>
+                  <p class="text-[#1b0e0e] text-base font-medium leading-normal">Digital Marketing Fundamentals</p>
+                  <p class="text-[#994d51] text-sm font-normal leading-normal">Master the fundamentals of digital marketing strategies.</p>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <a href="course2.html">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-lg min-h-[100px] sm:min-h-[150px]"
+                  style='background-image: url("./Pictures/Graphic\ Designing.jpg");'
+                ></div>
+                </a>
+                <div>
+                  <p class="text-[#1b0e0e] text-base font-medium leading-normal">Graphic Design Basics</p>
+                  <p class="text-[#994d51] text-sm font-normal leading-normal">Explore the basics of graphic design and visual communication.</p>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <a href="course3.html">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-lg min-h-[100px] sm:min-h-[150px]"
+                  style='background-image: url("./Pictures/Financial\ Accounting.jpg");'
+                ></div>
+                </a>
+                <div>
+                  <p class="text-[#1b0e0e] text-base font-medium leading-normal">Financial Accounting Principles</p>
+                  <p class="text-[#994d51] text-sm font-normal leading-normal">Understand the core principles of financial accounting.</p>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <a href="course4.html">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-lg min-h-[100px] sm:min-h-[150px]"
+                  style='background-image: url("./Pictures/Python\ Programming.jpg");'
+                ></div>
+                </a>
+                <div>
+                  <p class="text-[#1b0e0e] text-base font-medium leading-normal">Introduction to Python Programming</p>
+                  <p class="text-[#994d51] text-sm font-normal leading-normal">Learn the basics of Python programming language.</p>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <a href="course5.html">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-lg min-h-[100px] sm:min-h-[150px]"
+                  style='background-image: url("./Pictures/project\ managemnt.jpg");'
+                ></div>
+                </a>
+                <div>
+                  <p class="text-[#1b0e0e] text-base font-medium leading-normal">Project Management Essentials</p>
+                  <p class="text-[#994d51] text-sm font-normal leading-normal">Learn essential project management methodologies.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

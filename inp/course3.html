@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+  <link
+    rel="stylesheet"
+    as="style"
+    onload="this.rel='stylesheet'"
+    href="https://fonts.googleapis.com/css2?display=swap&amp;family=Lexend%3Awght%40400%3B500%3B700%3B900&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900"
+  />
+  <title>Skill Wallha</title>
+  <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+</head>
+<body>
+  <div class="relative flex size-full min-h-screen flex-col bg-[#fcf8f8] group/design-root overflow-x-hidden" style='font-family: Lexend, "Noto Sans", sans-serif;'>
+    <div class="layout-container flex h-full grow flex-col">
+      <header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#f3e7e8] px-10 py-3">
+        <div class="flex items-center gap-8">
+          <div class="flex items-center gap-4 text-[#1b0e0e]">
+                        <a class="text-[#1b0e0e] text-lg font-bold leading-tight tracking-[-0.015em]"  href="home.html" >Skill Wallha</a>
+                        <div class="flex flex-wrap items-center gap-4 md:gap-9">
+              <a class="text-[#1b0e0e] text-sm font-medium leading-normal" href="home.html">Home</a>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="px-40 flex flex-1 justify-center py-5">
+        <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+          <div class="flex flex-wrap gap-2 p-4">
+            <a class="text-[#994d51] text-base font-medium leading-normal" href="#">Courses</a>
+            <span class="text-[#994d51] text-base font-medium leading-normal">/</span>
+            <span class="text-[#1b0e0e] text-base font-medium leading-normal">Financial Accounting Principles</span>
+          </div>
+          <div class="flex flex-wrap justify-between gap-3 p-4">
+            <div class="flex min-w-72 flex-col gap-3">
+              <p class="text-[#1b0e0e] tracking-light text-[32px] font-bold leading-tight">Financial Accounting Principles</p>
+              <p class="text-[#994d51] text-sm font-normal leading-normal">
+                Understand the fundamentals of financial accounting, including recording transactions, preparing statements, and analyzing financial information.
+              </p>
+            </div>
+          </div>
+          <div class="pb-3">
+            <div class="flex border-b border-[#e7d0d1] px-4 gap-8">
+              <button id="overviewTab" class="flex flex-col items-center justify-center border-b-[3px] border-b-[#ea2832] text-[#1b0e0e] pb-[13px] pt-4">
+                <p class="text-[#1b0e0e] text-sm font-bold leading-normal tracking-[0.015em]">Overview</p>
+              </button>
+              <button id="instructorTab" class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#994d51] pb-[13px] pt-4">
+                <p class="text-[#994d51] text-sm font-bold leading-normal tracking-[0.015em]">Instructor</p>
+              </button>
+            </div>
+          </div>
+
+          <!-- Overview Section -->
+          <div id="overviewSection">
+            <h2 class="text-[#1b0e0e] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Course Overview</h2>
+            <p class="text-[#1b0e0e] text-base font-normal leading-normal pb-3 pt-1 px-4">
+              This course provides a solid foundation in financial accounting principles and practices. You will learn how to record business transactions, create balance sheets and income statements, and interpret key financial reports. Through real-world examples and practical exercises, you will gain the skills to analyze a company’s financial health and make informed decisions. This course is ideal for aspiring accountants, business managers, and anyone interested in understanding financial performance.
+            </p>
+            <h2 class="text-[#1b0e0e] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Course Schedule</h2>
+            <div class="px-4 py-3 @container">
+              <div class="flex overflow-hidden rounded-lg border border-[#e7d0d1] bg-[#fcf8f8]">
+                <table class="flex-1">
+                  <thead>
+                    <tr class="bg-[#fcf8f8]">
+                      <th class="table-25ddf27f-1118-4e9e-b6c3-e71320decf3b-column-120 px-4 py-3 text-left text-[#1b0e0e] w-[400px] text-sm font-medium leading-normal">Date</th>
+                      <th class="table-25ddf27f-1118-4e9e-b6c3-e71320decf3b-column-240 px-4 py-3 text-left text-[#1b0e0e] w-[400px] text-sm font-medium leading-normal">Topic</th>
+                      <th class="table-25ddf27f-1118-4e9e-b6c3-e71320decf3b-column-360 px-4 py-3 text-left text-[#1b0e0e] w-[400px] text-sm font-medium leading-normal">
+                        Description
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="border-t border-t-[#e7d0d1]">
+                      <td class="table-25ddf27f-1118-4e9e-b6c3-e71320decf3b-column-120 h-[72px] px-4 py-2 w-[400px] text-[#994d51] text-sm font-normal leading-normal">Week 1</td>
+                      <td class="table-25ddf27f-1118-4e9e-b6c3-e71320decf3b-column-240 h-[72px] px-4 py-2 w-[400px] text-[#1b0e0e] text-sm font-normal leading-normal">
+                        Introduction to Accounting
+                      </td>
+                      <td class="table-25ddf27f-1118-4e9e-b6c3-e71320decf3b-column-360 h-[72px] px-4 py-2 w-[400px] text-[#994d51] text-sm font-normal leading-normal">
+                        Basic accounting concepts and the role of accounting in business.
+                      </td>
+                    </tr>
+                    <tr class="border-t border-t-[#e7d0d1]">
+                      <td class="table-25ddf27f-1118-4e9e-b6c3-e71320decf3b-column-120 h-[72px] px-4 py-2 w-[400px] text-[#994d51] text-sm font-normal leading-normal">Week 2</td>
+                      <td class="table-25ddf27f-1118-4e9e-b6c3-e71320decf3b-column-240 h-[72px] px-4 py-2 w-[400px] text-[#1b0e0e] text-sm font-normal leading-normal">
+                        Recording Transactions
+                      </td>
+                      <td class="table-25ddf27f-1118-4e9e-b6c3-e71320decf3b-column-360 h-[72px] px-4 py-2 w-[400px] text-[#994d51] text-sm font-normal leading-normal">
+                        The accounting cycle and double-entry bookkeeping.
+                      </td>
+                    </tr>
+                    <tr class="border-t border-t-[#e7d0d1]">
+                      <td class="table-25ddf27f-1118-4e9e-b6c3-e71320decf3b-column-120 h-[72px] px-4 py-2 w-[400px] text-[#994d51] text-sm font-normal leading-normal">Week 3</td>
+                      <td class="table-25ddf27f-1118-4e9e-b6c3-e71320decf3b-column-240 h-[72px] px-4 py-2 w-[400px] text-[#1b0e0e] text-sm font-normal leading-normal">
+                        Preparing Financial Statements
+                      </td>
+                      <td class="table-25ddf27f-1118-4e9e-b6c3-e71320decf3b-column-360 h-[72px] px-4 py-2 w-[400px] text-[#994d51] text-sm font-normal leading-normal">
+                        Creating balance sheets, income statements, and cash flow statements.
+                      </td>
+                    </tr>
+                    <tr class="border-t border-t-[#e7d0d1]">
+                      <td class="table-25ddf27f-1118-4e9e-b6c3-e71320decf3b-column-120 h-[72px] px-4 py-2 w-[400px] text-[#994d51] text-sm font-normal leading-normal">Week 4</td>
+                      <td class="table-25ddf27f-1118-4e9e-b6c3-e71320decf3b-column-240 h-[72px] px-4 py-2 w-[400px] text-[#1b0e0e] text-sm font-normal leading-normal">
+                        Analyzing Financial Information
+                      </td>
+                      <td class="table-25ddf27f-1118-4e9e-b6c3-e71320decf3b-column-360 h-[72px] px-4 py-2 w-[400px] text-[#994d51] text-sm font-normal leading-normal">
+                        Financial ratios and performance evaluation.
+                      </td>
+                    </tr>
+                    <tr class="border-t border-t-[#e7d0d1]">
+                      <td class="table-25ddf27f-1118-4e9e-b6c3-e71320decf3b-column-120 h-[72px] px-4 py-2 w-[400px] text-[#994d51] text-sm font-normal leading-normal">Week 5</td>
+                      <td class="table-25ddf27f-1118-4e9e-b6c3-e71320decf3b-column-240 h-[72px] px-4 py-2 w-[400px] text-[#1b0e0e] text-sm font-normal leading-normal">
+                        Practical Application
+                      </td>
+                      <td class="table-25ddf27f-1118-4e9e-b6c3-e71320decf3b-column-360 h-[72px] px-4 py-2 w-[400px] text-[#994d51] text-sm font-normal leading-normal">
+                        Case studies and preparing reports for decision-making.
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <style>
+                          @container(max-width:120px){.table-25ddf27f-1118-4e9e-b6c3-e71320decf3b-column-120{display: none;}}
+                @container(max-width:240px){.table-25ddf27f-1118-4e9e-b6c3-e71320decf3b-column-240{display: none;}}
+                @container(max-width:360px){.table-25ddf27f-1118-4e9e-b6c3-e71320decf3b-column-360{display: none;}}
+              </style>
+            </div>
+            <h2 class="text-[#1b0e0e] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Prerequisites</h2>
+            <p class="text-[#1b0e0e] text-base font-normal leading-normal pb-3 pt-1 px-4">
+              No prior accounting knowledge is required. Basic numeracy and familiarity with spreadsheets will be helpful.
+            </p>
+          </div>
+
+          <!-- Instructor Section (Initially hidden) -->
+          <!-- Instructor Section (Initially hidden) -->
+<div id="instructorSection" class="hidden">
+  <h2 class="text-[#1b0e0e] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Instructor</h2>
+  <div class="flex flex-wrap items-center gap-6 px-4">
+    <img
+      src="./Pictures/Michael Turner.jpg"
+      class="w-32 h-32 rounded-full object-cover border border-[#e7d0d1]"
+    />
+    <div>
+      <p class="text-[#1b0e0e] text-base font-normal leading-normal pb-2">
+        <strong>Michael Turner</strong> is a certified public accountant with over 15 years of experience in corporate finance and teaching accounting principles.
+      </p>
+      <p class="text-[#1b0e0e] text-base font-normal leading-normal">
+        He has trained hundreds of professionals and students in mastering financial reporting and analysis.
+      </p>
+    </div>
+  </div>
+</div>
+          <div class="flex px-4 py-3 justify-end">
+            <button
+              class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-5 bg-[#ea2832] text-[#fcf8f8] text-base font-bold leading-normal tracking-[0.015em]"
+            >
+              <a class="truncate" href="enrollform.html" >Enroll Now</a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Small script to toggle visibility -->
+  <script>
+    const overviewTab = document.getElementById("overviewTab");
+    const instructorTab = document.getElementById("instructorTab");
+    const overviewSection = document.getElementById("overviewSection");
+    const instructorSection = document.getElementById("instructorSection");
+
+    overviewTab.addEventListener("click", () => {
+      overviewSection.classList.remove("hidden");
+      instructorSection.classList.add("hidden");
+      overviewTab.classList.add("border-b-[#ea2832]", "text-[#1b0e0e]");
+      overviewTab.classList.remove("border-b-transparent", "text-[#994d51]");
+      instructorTab.classList.remove("border-b-[#ea2832]", "text-[#1b0e0e]");
+      instructorTab.classList.add("border-b-transparent", "text-[#994d51]");
+    });
+
+    instructorTab.addEventListener("click", () => {
+      overviewSection.classList.add("hidden");
+      instructorSection.classList.remove("hidden");
+      instructorTab.classList.add("border-b-[#ea2832]", "text-[#1b0e0e]");
+      instructorTab.classList.remove("border-b-transparent", "text-[#994d51]");
+      overviewTab.classList.remove("border-b-[#ea2832]", "text-[#1b0e0e]");
+      overviewTab.classList.add("border-b-transparent", "text-[#994d51]");
+    });
+  </script>
+</body>
+</html>
