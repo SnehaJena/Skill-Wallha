@@ -33,4 +33,25 @@ Mobile Devices: Stack content vertically for readability.
 Tablets: Use grid layouts with adjusted spacing.
 Desktops: Display multi-column sections and wider cards.
 
-You can test responsiveness by resizing the browser window or using developer tools.
+You can test responsiveness by resizing the browser window or using developer tools. 
+
+Flow Explanation
+
+Entry Point
+User starts at index.html, which is the main landing page.
+Displays skill sections, banners, and navigation links.
+
+Navigation
+From the home page, users can click:
+Instructor -> Loads the instructors of the website.
+Pricing -> Loads the page with pricing of monthly and yearly membership for the website.  
+
+Styling
+
+All pages:
+Use style.css for additional custom styles.
+Import Tailwind CSS CDN to handle layout, typography, colors, and responsiveness.
+
+Assets
+
+Images and icons are loaded from the images/ folder.
