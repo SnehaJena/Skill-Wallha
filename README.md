@@ -1,4 +1,4 @@
-Skill-Wallha
+Skill-Wallha:
 Skill-Wallha is a modern web application designed to showcase skills, courses, and resources in a clean and responsive layout. This project leverages HTML, CSS, and Tailwind CSS to create a visually appealing and user-friendly experience.
 
 Project Overview
